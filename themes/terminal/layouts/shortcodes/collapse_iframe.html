@@ -1,0 +1,18 @@
+{{ $.Scratch.Add "counter" 1 }}
+<details>
+    <summary>{{ (.Get 0) | markdownify }}</summary>
+    <iframe id="iframe-{{ $.Scratch.Get "counter" }}" src="{{ .Get 1 }}" width="800px" height="600px"></iframe>
+</details>
+<script>
+    (function() {
+        var id = 'iframe-{{ $.Scratch.Get "counter" }}';
+        document.querySelectorAll('details').forEach(function(details) {
+            details.addEventListener('toggle', function() {
+                if (this.open) {
+                    var iframe = this.querySelector('#' + id);
+                    iframe.src = iframe.src;
+                }
+            });
+        });
+    })();
+</script>

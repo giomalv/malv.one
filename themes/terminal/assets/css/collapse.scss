@@ -1,0 +1,14 @@
+summary {
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '+';
+    color: $accent;
+    display: inline-block;
+    width: 1em;
+}
