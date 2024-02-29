@@ -1,0 +1,12 @@
+# Ignore the public directory
+/public
+
+# Ignore Hugo's resources directory
+/resources
+
+# Ignore Hugo's temporary files
+/tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
