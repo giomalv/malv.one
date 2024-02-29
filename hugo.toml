@@ -33,3 +33,11 @@ paginate = 5
         identifier = "graphics"
         name = ">graphics🟣"
         url = "/graphics"
+      [[languages.en.menu.main]]
+        identifier = "games"
+        name = ">games🟢"
+        url = "/games"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = ">posts🟠"
+        url = "/posts"
