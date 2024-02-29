@@ -1,4 +1,5 @@
-<details>
+{{ $id := .Get 1 }}
+<details id="{{ $id }}">
     <summary>{{ (.Get 0) | markdownify }}</summary>
     {{ .Inner | markdownify }}
   </details>
