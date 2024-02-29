@@ -4,7 +4,7 @@ theme = "terminal"
 paginate = 5
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = ""
   themeColor = "green"
   showMenuItems = 1
   fullWidthTheme = false
