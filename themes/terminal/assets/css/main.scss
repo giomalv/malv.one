@@ -245,6 +245,17 @@ th {
   color: $accent;
 }
 
+.content ul {
+  list-style: none;
+
+  li:not(:empty):before {
+    content: '>.';
+    position: absolute;
+    left: -20px;
+    color: $accent;
+  }
+}
+
 ul,
 ol {
   margin-left: 22px;

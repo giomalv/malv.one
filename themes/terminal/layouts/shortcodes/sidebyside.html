@@ -1,0 +1,4 @@
+<div style="display: flex; justify-content: space-around;">
+    {{ with .Get 0 }}<img src="{{ . | relURL }}" style="width: 45%;">{{ end }}
+    {{ with .Get 1 }}<img src="{{ . | relURL }}" style="width: 45%;">{{ end }}
+</div>
