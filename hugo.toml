@@ -6,7 +6,7 @@ paginate = 5
 [params]
   contentTypeName = "/_index.md"
   themeColor = "green"
-  showMenuItems = 1
+  showMenuItems = 0
   fullWidthTheme = false
   centerTheme = true
 
