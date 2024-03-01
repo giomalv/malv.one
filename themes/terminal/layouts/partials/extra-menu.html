@@ -1,0 +1,12 @@
+{{ with $.Site.Params.exMenu }}
+<ul class="menu menu--desktop menu--extra-menu">
+    <li class="menu__trigger">{{ .name }}&nbsp;▾</li>
+    <li>
+        <ul class="menu__dropdown">
+            {{ range .menuItems }}
+                <li><a href="#{{ .link }}">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+    </li>
+</ul>
+{{ end }}

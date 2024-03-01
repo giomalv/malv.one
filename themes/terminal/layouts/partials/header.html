@@ -7,7 +7,7 @@
       {{ partial "mobile-menu.html" . }}
     {{ end }}
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
-      {{ partial "language-menu.html" . }}
+      {{ partial "extra-menu.html" . }}
     {{ end }}
   </div>
   {{ if len $.Site.Menus }}
