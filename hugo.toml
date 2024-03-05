@@ -39,19 +39,24 @@ paginate = 5
         identifier = "about"
         name = ">about🔵"
         url = "/about"
+        weight = 99
       [[languages.en.menu.main]]
         identifier = "graphics"
         name = ">graphics🟣"
         url = "/graphics"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "games"
         name = ">games🟢"
         url = "/games"
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "posts"
         name = ">posts🟠"
         url = "/posts"
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "software"
         name = ">software🔴"
         url = "/software"
+        weight = 5
