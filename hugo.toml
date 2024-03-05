@@ -3,6 +3,11 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   contentTypeName = "/_index.md"
   themeColor = "green"
