@@ -5,4 +5,4 @@ author = "Frogum Frogsum"
 description = ""
 +++
 
-{{< figure src="/img/frogs/frog12.jpg" alt="Froggo" position="center" style="border-radius: 8px;" caption="Welcome, stay a while!">}}
+{{< figure src="/img/frogs/frog20.jpg" alt="Froggo" position="center" style="border-radius: 8px;" caption="Welcome, stay a while!">}}
