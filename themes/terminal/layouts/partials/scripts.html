@@ -2,35 +2,40 @@
 // Scripts - configurable via hugo.toml
 
 {{ if .Site.Params.menuScramble }}     
-    const LETTERS = [..."{{ .Site.Params.scrambleCharset}}"]
+    const LETTERS = [..."{{ .Site.Params.scrambleCharset}}"];
+    const LETTERS_LENGTH = LETTERS.length;
+    const DELAY = 49;
 
     document.querySelectorAll(".scramble").forEach(element => {
-    let isScrambling = false; 
+        let isScrambling = false;
 
-    element.onmouseover = event => {
-        if (isScrambling) return;
+        element.onmouseover = event => {
+            if (isScrambling) return;
 
-        isScrambling = true;
-        let iters = 0;
-    
-        const INTERVAL = setInterval(() => {
-        event.target.innerText = Array.from(event.target.innerText)
-            .map((letter,index) => {
-            if(index < iters){
-                return Array.from(event.target.dataset.value)[index]
-            }
-            return LETTERS[Math.floor(Math.random() * LETTERS.length)]
-        })
-            .join("");
-        
-        if(iters >= Array.from(event.target.dataset.value).length){
-            clearInterval(INTERVAL);
-            isScrambling = false;
-        }
-        
-        iters +=1;
-        },69);
-    }
+            isScrambling = true;
+            let iters = 0;
+            const targetValue = Array.from(event.target.dataset.value);
+
+            const scramble = () => {
+                event.target.innerText = Array.from(event.target.innerText)
+                    .map((letter, index) => {
+                        if (index < iters) {
+                            return targetValue[index];
+                        }
+                        return LETTERS[Math.floor(Math.random() * LETTERS_LENGTH)];
+                    })
+                    .join("");
+
+                if (iters >= targetValue.length) {
+                    isScrambling = false;
+                } else {
+                    iters += 1;
+                    setTimeout(() => requestAnimationFrame(scramble), DELAY);
+                }
+            };
+
+            scramble();
+        };
     });
 {{ end }}
 </script>
