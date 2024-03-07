@@ -4,5 +4,7 @@
 
 <details {{ if $scroll}} class="scrollable" {{end}} {{if $id}} id="{{ $id }}"{{ end }}>
   <summary>{{ $summary | markdownify }}</summary>
-  {{ .Inner | markdownify }}
+  <div class="details-inner">
+    {{ .Inner | markdownify }}
+  </div>
 </details>
