@@ -3,7 +3,7 @@ title = 'Software'
 date = 2024-03-01T11:02:06Z
 +++
 
-- {{% collapse "`Bulletstorm Camera Tool`" %}}
+- {{% collapse summary="`Bulletstorm Camera Tool`" %}}
 ----------
 Tool I built for Bulletstorm Full Clip Edition that injects DLLs into the game process, allowing for unlocked camera control  
 - [Easter Eggs](/posts/bsfce)

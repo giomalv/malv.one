@@ -359,3 +359,9 @@ sup {
 summary {
   user-select:none;
 }
+
+ .scrollable {
+  max-height: 300px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}

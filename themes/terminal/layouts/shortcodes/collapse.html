@@ -1,5 +1,8 @@
-{{ $id := .Get 1 }}
-<details id="{{ $id }}">
-    <summary>{{ (.Get 0) | markdownify }}</summary>
-    {{ .Inner | markdownify }}
-  </details>
+{{ $scroll := .Get "scrollable" }}
+{{ $id := .Get "id" }}
+{{ $summary := .Get "summary"}}
+
+<details {{ if $scroll}} class="scrollable" {{end}} {{if $id}} id="{{ $id }}"{{ end }}>
+  <summary>{{ $summary | markdownify }}</summary>
+  {{ .Inner | markdownify }}
+</details>

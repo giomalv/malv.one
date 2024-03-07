@@ -3,7 +3,7 @@ title = 'About'
 date = 2024-02-29T11:35:42Z
 +++
 
-- {{< collapse "Built on [`Hugo`](https://gohugo.io)" >}}
+- {{< collapse summary="Built on [`Hugo`](https://gohugo.io)" scrollable="true" >}}
 ```
                                  Apache License
                            Version 2.0, January 2004
@@ -207,7 +207,7 @@ date = 2024-02-29T11:35:42Z
    See the License for the specific language governing permissions and
    limitations under the License.
 ```{{< /collapse >}}
-- {{< collapse "Using the [`terminal`](https://github.com/panr/hugo-theme-terminal/) theme by panr" >}}  
+- {{< collapse summary="Using the [`terminal`](https://github.com/panr/hugo-theme-terminal/) theme by panr" >}}  
 ```
 The MIT License (MIT)
 
