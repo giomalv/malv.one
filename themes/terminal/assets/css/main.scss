@@ -360,6 +360,10 @@ summary {
   user-select:none;
 }
 
+a code{
+  text-decoration: underline;
+}
+
  .scrollable > .details-inner {
   max-height: 300px;
   overflow: scroll;
