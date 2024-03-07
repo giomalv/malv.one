@@ -207,7 +207,7 @@ date = 2024-02-29T11:35:42Z
    See the License for the specific language governing permissions and
    limitations under the License.
 ```{{< /collapse >}}
-- {{< collapse summary="Using the [`terminal`](https://github.com/panr/hugo-theme-terminal/) theme by panr" >}}  
+- {{< collapse summary="Using the [`terminal`](https://github.com/panr/hugo-theme-terminal/) theme by panr" scrollable="true" >}}  
 ```
 The MIT License (MIT)
 
