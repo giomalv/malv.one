@@ -4,7 +4,7 @@
     <li>
         <ul class="menu__dropdown">
             {{ range .menuItems }}
-                <li><a href="#{{ .link }}">{{ .name }}</a></li>
+                <li><a href="#{{ .link }}" class="scramble" data-value="{{ .name }}">{{ .name }}</a></li>
             {{ end }}
         </ul>
     </li>
