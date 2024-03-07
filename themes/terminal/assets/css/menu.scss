@@ -89,6 +89,8 @@
 
   &__dropdown {
     @include menu;
+    width: 140px;
+    overflow: hidden;
 
     .open & {
       display: flex;
