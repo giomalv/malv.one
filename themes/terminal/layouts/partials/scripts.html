@@ -1,13 +1,16 @@
 <script>
-    const LETTERS = "▁▂▃▄▅▆▇█"
+// Scripts - configurable via hugo.toml
+
+{{ if .Site.Params.menuScramble }}     
+    const LETTERS = [..."{{ .Site.Params.scrambleCharset}}"]
 
     document.querySelectorAll(".scramble").forEach(element => {
-    let isScrambling = false; // Add a flag to track if scrambling is in progress
+    let isScrambling = false; 
 
     element.onmouseover = event => {
-        if (isScrambling) return; // If scrambling is in progress, return early
+        if (isScrambling) return;
 
-        isScrambling = true; // Set the flag to true when scrambling starts
+        isScrambling = true;
         let iters = 0;
     
         const INTERVAL = setInterval(() => {
@@ -22,11 +25,12 @@
         
         if(iters >= Array.from(event.target.dataset.value).length){
             clearInterval(INTERVAL);
-            isScrambling = false; // Reset the flag when scrambling finishes
+            isScrambling = false;
         }
         
         iters +=1;
         },69);
     }
     });
+{{ end }}
 </script>

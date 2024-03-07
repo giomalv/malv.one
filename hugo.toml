@@ -15,6 +15,8 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = true
   showLanguageSelector = true
+  menuScramble = true
+  scrambleCharset = "▁▂▃▅▆▇█"
 
 #  [params.exMenu]
 #    name = ">..test"
