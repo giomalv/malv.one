@@ -19,11 +19,6 @@ The first of our secrets can be found at the start of the game.
 
 In the prologue during the skyscraper segment, as you begin walking down the building a elevator will descend on your left. Inside the elevator is Duke Nukem. This can be quite tricky to see in game due to the speed of the elevator.
 
-The following video demonstrates the secret in-game
-YouTube™ Video: Bulletstorm: Full Clip Edition - Duke Nukem In Lift Easter Egg 
-Views: 1,521
-Prologue Mission: Duke 3D Easter Egg Screenshot...
-
 ## Act 2: Chapter 1 - Pig Cop
 ![Easter Egg 2](/img/bsfce/bsfceeggs2.jpg)
 
@@ -40,9 +35,6 @@ Continue through the mission until you reach a small courtyard where you'll find
 ## Act 2: Chapter 1 - Assault Trooper
 ![Easter Egg 4](/img/bsfce/bsfceeggs4.jpg)
 After discovering Trishka's empty escape pod you will go up a flight of stairs in the courtyard and then into a building. You will reach a staircase back down to the ground floor, where you'll need to hop over a wooden beam to continue down. Before heading down look straight ahead to find the Assault Trooper on the far wall.
-YouTube™ Video: Bulletstorm: Full Clip Edition - Assault Trooper Easter Egg 
-Views: 950
-Act 2: Chapter 1 just after you find Trishka's Escape Pod and its empty. Zoom with Sniper Rifle
 
 ## Act 2: Chapter 2 - Alien Queen
 ![Easter Egg 5](/img/bsfce/bsfceeggs5.jpg)
@@ -61,19 +53,12 @@ Activating the switch changes all the nearby hologram screens to display images 
 ![Easter Egg 10](/img/bsfce/bsfceeggs10.jpg)
 
 Progress normally through the mission until you reach a corridor with a large fish tank that covers the entire left-hand side wall. It can be difficult to see in-game, but swimming at the far back of the fish tank is an Octabrain.
-YouTube™ Video: Bulletstorm: Full Clip Edition - Octobrain Easter Egg 
-Views: 2,322
-Act 3: Chapter 1
 
 ## Act 6: Chapter 1 - Holoduke
 ![Easter Egg 11](/img/bsfce/bsfceeggs11.jpg)
 Throughout the start of the mission you will go down a few flights of stairs until you reach a large room featuring dining tables and chairs, with a grand piano centrepiece near the far wall.
 
 To the right of the piano platform you will find a Holoduke on one of the tables.  
-
-YouTube™ Video: Bulletstorm Full Clip *Duke Nukem* Easter Egg 
-Views: 383
-I found this in Chapter 6 Act 1.... Hail to the King, Baby!!!
 
 ## The Hunt Continues?  
 ![Easter Egg 12](/img/bsfce/bsfceeggs12.png)
